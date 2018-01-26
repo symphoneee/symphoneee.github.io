@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pitcher</title>
+    <meta name="description" content="pitcher">
+    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  </head>
+  <body>
+<a-scene name="KanauScene">
+  <a-assets>
+    <a-asset-item id="Bip001 Strippz001-obj" src="./models/Bip001 Strippz001.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz001-mtl" src="./models/Bip001 Strippz001.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz002-obj" src="./models/Bip001 Strippz002.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz002-mtl" src="./models/Bip001 Strippz002.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz003-obj" src="./models/Bip001 Strippz003.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz003-mtl" src="./models/Bip001 Strippz003.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz004-obj" src="./models/Bip001 Strippz004.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz004-mtl" src="./models/Bip001 Strippz004.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz005-obj" src="./models/Bip001 Strippz005.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz005-mtl" src="./models/Bip001 Strippz005.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz006-obj" src="./models/Bip001 Strippz006.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz006-mtl" src="./models/Bip001 Strippz006.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz007-obj" src="./models/Bip001 Strippz007.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz007-mtl" src="./models/Bip001 Strippz007.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz008-obj" src="./models/Bip001 Strippz008.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz008-mtl" src="./models/Bip001 Strippz008.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz009-obj" src="./models/Bip001 Strippz009.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz009-mtl" src="./models/Bip001 Strippz009.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz010-obj" src="./models/Bip001 Strippz010.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz010-mtl" src="./models/Bip001 Strippz010.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz011-obj" src="./models/Bip001 Strippz011.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz011-mtl" src="./models/Bip001 Strippz011.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz012-obj" src="./models/Bip001 Strippz012.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz012-mtl" src="./models/Bip001 Strippz012.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz013-obj" src="./models/Bip001 Strippz013.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz013-mtl" src="./models/Bip001 Strippz013.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz014-obj" src="./models/Bip001 Strippz014.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz014-mtl" src="./models/Bip001 Strippz014.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz015-obj" src="./models/Bip001 Strippz015.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz015-mtl" src="./models/Bip001 Strippz015.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz016-obj" src="./models/Bip001 Strippz016.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz016-mtl" src="./models/Bip001 Strippz016.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz017-obj" src="./models/Bip001 Strippz017.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz017-mtl" src="./models/Bip001 Strippz017.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz018-obj" src="./models/Bip001 Strippz018.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz018-mtl" src="./models/Bip001 Strippz018.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz019-obj" src="./models/Bip001 Strippz019.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz019-mtl" src="./models/Bip001 Strippz019.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz020-obj" src="./models/Bip001 Strippz020.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz020-mtl" src="./models/Bip001 Strippz020.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz021-obj" src="./models/Bip001 Strippz021.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz021-mtl" src="./models/Bip001 Strippz021.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz022-obj" src="./models/Bip001 Strippz022.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz022-mtl" src="./models/Bip001 Strippz022.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz023-obj" src="./models/Bip001 Strippz023.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz023-mtl" src="./models/Bip001 Strippz023.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz024-obj" src="./models/Bip001 Strippz024.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz024-mtl" src="./models/Bip001 Strippz024.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz025-obj" src="./models/Bip001 Strippz025.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz025-mtl" src="./models/Bip001 Strippz025.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz026-obj" src="./models/Bip001 Strippz026.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz026-mtl" src="./models/Bip001 Strippz026.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz027-obj" src="./models/Bip001 Strippz027.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz027-mtl" src="./models/Bip001 Strippz027.mtl"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz028-obj" src="./models/Bip001 Strippz028.obj"></a-asset-item>
+    <a-asset-item id="Bip001 Strippz028-mtl" src="./models/Bip001 Strippz028.mtl"></a-asset-item>
+    <a-asset-item id="glove_low-obj" src="./models/glove_low.obj"></a-asset-item>
+    <a-asset-item id="glove_low-mtl" src="./models/glove_low.mtl"></a-asset-item>
+    <a-asset-item id="Finger_Glove-obj" src="./models/Finger_Glove.obj"></a-asset-item>
+    <a-asset-item id="Finger_Glove-mtl" src="./models/Finger_Glove.mtl"></a-asset-item>
+    <a-asset-item id="hat-obj" src="./models/hat.obj"></a-asset-item>
+    <a-asset-item id="hat-mtl" src="./models/hat.mtl"></a-asset-item>
+    <a-asset-item id="MLB_player_Hi_body-obj" src="./models/MLB_player_Hi_body.obj"></a-asset-item>
+    <a-asset-item id="MLB_player_Hi_body-mtl" src="./models/MLB_player_Hi_body.mtl"></a-asset-item>
+    <a-asset-item id="Strippz-obj" src="./models/Strippz.obj"></a-asset-item>
+    <a-asset-item id="Strippz-mtl" src="./models/Strippz.mtl"></a-asset-item>
+    <a-asset-item id="WH2-obj" src="./models/WH2.obj"></a-asset-item>
+    <a-asset-item id="WH2-mtl" src="./models/WH2.mtl"></a-asset-item>
+  </a-assets>
+  <a-sky radius="5000" color="#314D79"></a-sky>
+  <a-entity position="387.4 42.3 -422.7" rotation="-17.81506 -187.3831 1.069225" name="Main Camera" tag="MainCamera">
+    <a-camera far="1000" near="0.3" look-controls-enabled="true" wasd-controls-enabled="true">
+      <a-cursor fuse="False" max-distance="1000" timeout="1500"></a-cursor>
+    </a-camera>
+  </a-entity>
+  <a-entity position="373.9324 0 -366.0974" name="Pitcher_Anim">
+    <a-entity position="0.3586175 23.85855 0.518414" rotation="-270 -89.99991 0" name="Bip001">
+      <a-entity position="0 0 22.99407" rotation="0 0 270.0001" name="Bip001 Footsteps"></a-entity>
+      <a-entity rotation="-270 -82.30641 0" name="Bip001 Pelvis">
+        <a-entity position="-2.41669 -0.3293943 0.0003765215" rotation="-7.434395 -0.8908178 4.965585" name="Bip001 Spine">
+          <a-entity position="2.424104 0.483028 -2.750045" rotation="-17.14089 -181.9705 348.3738" name="Bip001 L Thigh">
+            <a-entity position="-10.48081 0 0" rotation="-9.575004E-07 -2.75999E-08 14.52609" name="Bip001 L Calf">
+              <a-entity position="-10.31759 -6.055833E-08 1.211167E-07" rotation="-351.7647 -358.1287 354.942" name="Bip001 L Foot">
+                <a-entity position="-2.475173 3.186067 0" rotation="-2.732074E-05 -1.074577E-05 270" name="Bip001 L Toe0">
+                  <a-entity position="-2.16046 -6.055833E-08 0" rotation="-3.355261E-28 -180 7.01671E-15" name="Bip001 L Toe0Nub"></a-entity>
+                </a-entity>
+              </a-entity>
+            </a-entity>
+            <a-entity position="-10.48081 0 0" rotation="-357.3413 -359.3106 14.54208" name="Bip001 LCalfTwist">
+              <a-entity position="-5.158793 0 1.211167E-07" rotation="-357.2534 -1.929644E-07 4.273778E-07" name="Bip001 LCalfTwist1"></a-entity>
+            </a-entity>
+          </a-entity>
+          <a-entity position="2.424104 0.483028 -2.750045" rotation="-10.94724 -183.2651 348.6885" name="Bip001 LThighTwist">
+            <a-entity position="-5.240406 2.422333E-07 1.211167E-07" rotation="-3.15979 3.797545E-07 8.550739E-07" name="Bip001 LThighTwist1"></a-entity>
+          </a-entity>
+          <a-entity position="2.447942 -0.2407564 2.760028" rotation="-0.7248639 -189.1947 345.5756" name="Bip001 R Thigh">
+            <a-entity position="-10.48081 2.422333E-07 0" rotation="-9.942777E-07 1.388212E-06 35.61134" name="Bip001 R Calf">
+              <a-entity position="-10.31758 0 0" rotation="-9.051462 -347.9762 3.633651" name="Bip001 R Foot">
+                <a-entity position="-2.475174 3.186067 0" rotation="-351.2805 -2.593992 242.441" name="Bip001 R Toe0">
+                  <a-entity position="-2.16046 6.055833E-08 0" name="Bip001 R Toe0Nub"></a-entity>
+                </a-entity>
+              </a-entity>
+            </a-entity>
+            <a-entity position="-10.48081 2.422333E-07 0" rotation="-2.506574 -1.796719 35.65065" name="Bip001 RCalfTwist">
+              <a-entity position="-5.158791 -7.266999E-07 9.68933E-07" rotation="-3.083675 8.537738E-07 0" name="Bip001 RCalfTwist1"></a-entity>
+            </a-entity>
+          </a-entity>
+          <a-entity position="2.447942 -0.2407564 2.760028" rotation="-5.904921 -187.8569 345.4981" name="Bip001 RThighTwist">
+            <a-entity position="-5.240406 0 0" rotation="-357.3253 7.976951E-08 1.709409E-06" name="Bip001 RThighTwist1"></a-entity>
+          </a-entity>
+          <a-entity position="-3.675924 -0.002924968 7.659114E-05" rotation="-1.499102 -0.04473407 1.663989" name="Bip001 Spine1">
+            <a-entity position="-3.676008 -0.002919941 0.0002042178" rotation="-3.999928 -0.00319021 0.0001113686" name="Bip001 Spine2">
+              <a-entity position="-3.822456 -0.4454891 0.0001469296" rotation="-4.198139 -354.0662 353.0515" name="Bip001 Neck">
+                <a-entity position="-2.170298 0.1537392 -2.422333E-07" rotation="-333.0358 -0.2852301 3.614159" name="Bip001 Head">
+                  <a-entity position="-4.914773 4.844667E-07 0" name="Bip001 HeadNub"></a-entity>
+                  <a-entity position="-0.5869371 1.127314 0.0005969838" rotation="-0.2389023 -0.4394689 252.1194" name="Bip001 jaw">
+                    <a-entity position="-2.190135 0 0" rotation="0.0001589086 -180 269.9544" name="Bip001 Xtra01Nub"></a-entity>
+                  </a-entity>
+                  <a-entity position="-1.989588 2.178551 0.7826738" rotation="-279.1155 -320.6078 136.8238" name="Bip001 L eye"></a-entity>
+                  <a-entity position="-1.989588 2.178551 -0.782576" rotation="-75.04969 -160.2895 242.431" name="Bip001 R eye"></a-entity>
+                </a-entity>
+                <a-entity position="0.2134753 0.5682595 -1.247586" rotation="-6.028447 -279.5235 188.1431" name="Bip001 L Clavicle">
+                  <a-entity position="-2.757007 -1.211167E-07 0" rotation="-26.15649 -309.4033 13.9165" name="Bip001 L UpperArm">
+                    <a-entity position="-7.404733 0 0" rotation="-1.650761E-06 4.366969E-07 75.18225" name="Bip001 L Forearm">
+                      <a-entity position="-6.474572 -1.937867E-06 0" rotation="-280.2397 -295.9244 51.83438" name="Bip001 L Hand">
+                        <a-entity position="-1.793078 0.350188 1.396273" rotation="-24.32071 -264.5533 299.6008" name="Bip001 L Finger0">
+                          <a-entity position="-0.741263 0 4.844667E-07" rotation="-1.164473E-06 2.875439E-06 332.8617" name="Bip001 L Finger01">
+                            <a-entity position="-0.6031998 -1.937867E-06 0" rotation="-2.844329E-07 -3.832602E-07 349.9844" name="Bip001 L Finger02">
+                              <a-entity position="-0.7487316 0 -4.844667E-07" name="Bip001 L Finger0Nub"></a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-3.149384 0.0987343 0.8462604" rotation="-1.314573 -345.4032 336.3019" name="Bip001 L Finger1">
+                          <a-entity position="-1.125911 1.937867E-06 0" rotation="5.275732E-07 -6.71264E-07 308.1652" name="Bip001 L Finger11">
+                            <a-entity position="-0.6804003 0 -1.937867E-06" rotation="-7.171861E-08 1.907748E-06 335.5879" name="Bip001 L Finger12">
+                              <a-entity position="-0.789543 -4.844667E-07 1.937867E-06" name="Bip001 L Finger1Nub"></a-entity>
+                              <a-entity position="-0.9361193 0.1862018 -0.05195226" rotation="-43.23935 -78.98905 42.39005" name="Bip001 Strippz001">
+                                <a-entity position="-1.604432 0.0404999 -0.0117686" rotation="-10.12354 -345.9301 346.1985" name="Bip001 Strippz002">
+                                  <a-entity position="-1.636817 0 0" rotation="-359.4846 -355.3889 353.6355" name="Bip001 Strippz003">
+                                    <a-entity position="-1.661187 4.844666E-07 0" rotation="0 -2.156728 0" name="Bip001 Strippz004">
+                                      <a-entity position="-1.641429 -4.844666E-07 4.844666E-07" rotation="0 -4.918603 0" name="Bip001 Strippz005">
+                                        <a-entity position="-1.630689 2.422333E-07 -4.844666E-07" name="Bip001 Strippz006">
+                                          <a-entity position="-1.651833 0 0" name="Bip001 Strippz007">
+                                            <a-entity position="-1.647651 0 0" rotation="0 -358.0332 0" name="Bip001 Strippz008">
+                                              <a-entity position="-1.645028 0 0" rotation="0 -357.0853 0" name="Bip001 Strippz009">
+                                                <a-entity position="-1.637568 0 0" name="Bip001 Strippz010">
+                                                  <a-entity position="-1.63202 0 0" rotation="0 -3.332406 0" name="Bip001 Strippz011">
+                                                    <a-entity position="-1.641759 2.422333E-07 0" name="Bip001 Strippz012">
+                                                      <a-entity position="-1.641827 -2.422333E-07 0" name="Bip001 Strippz013">
+                                                        <a-entity position="-1.631977 0 4.844666E-07" name="Bip001 Strippz014" obj-model="obj: #Bip001 Strippz014-obj; "></a-entity>
+                                                        <a-entity name="Bip001 Strippz013_Mesh" obj-model="obj: #Bip001 Strippz013-obj; "></a-entity>
+                                                      </a-entity>
+                                                      <a-entity name="Bip001 Strippz012_Mesh" obj-model="obj: #Bip001 Strippz012-obj; "></a-entity>
+                                                    </a-entity>
+                                                    <a-entity name="Bip001 Strippz011_Mesh" obj-model="obj: #Bip001 Strippz011-obj; "></a-entity>
+                                                  </a-entity>
+                                                  <a-entity name="Bip001 Strippz010_Mesh" obj-model="obj: #Bip001 Strippz010-obj; "></a-entity>
+                                                </a-entity>
+                                                <a-entity name="Bip001 Strippz009_Mesh" obj-model="obj: #Bip001 Strippz009-obj; "></a-entity>
+                                              </a-entity>
+                                              <a-entity name="Bip001 Strippz008_Mesh" obj-model="obj: #Bip001 Strippz008-obj; "></a-entity>
+                                            </a-entity>
+                                            <a-entity name="Bip001 Strippz007_Mesh" obj-model="obj: #Bip001 Strippz007-obj; "></a-entity>
+                                          </a-entity>
+                                          <a-entity name="Bip001 Strippz006_Mesh" obj-model="obj: #Bip001 Strippz006-obj; "></a-entity>
+                                        </a-entity>
+                                        <a-entity name="Bip001 Strippz005_Mesh" obj-model="obj: #Bip001 Strippz005-obj; "></a-entity>
+                                      </a-entity>
+                                      <a-entity name="Bip001 Strippz004_Mesh" obj-model="obj: #Bip001 Strippz004-obj; "></a-entity>
+                                    </a-entity>
+                                    <a-entity name="Bip001 Strippz003_Mesh" obj-model="obj: #Bip001 Strippz003-obj; "></a-entity>
+                                  </a-entity>
+                                  <a-entity name="Bip001 Strippz002_Mesh" obj-model="obj: #Bip001 Strippz002-obj; "></a-entity>
+                                </a-entity>
+                                <a-entity name="Bip001 Strippz001_Mesh" obj-model="obj: #Bip001 Strippz001-obj; "></a-entity>
+                              </a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-3.19261 0.01033658 0.1413189" rotation="-353.4488 -0.3873985 324.6212" name="Bip001 L Finger2">
+                          <a-entity position="-1.112569 0 0" rotation="-6.570345E-07 -2.323735E-06 299.2118" name="Bip001 L Finger21">
+                            <a-entity position="-1.08157 9.68933E-07 1.937867E-06" rotation="3.226933E-06 -2.040955E-06 301.1226" name="Bip001 L Finger22">
+                              <a-entity position="-0.9211323 0 0" name="Bip001 L Finger2Nub"></a-entity>
+                              <a-entity position="-1.03768 -0.2585211 -0.02214594" rotation="-350.1713 -94.77906 47.12761" name="Bip001 Strippz015">
+                                <a-entity position="-1.638503 0 0" rotation="-358.6281 -354.2416 346.6442" name="Bip001 Strippz016">
+                                  <a-entity position="-1.627246 1.211166E-07 4.844666E-07" rotation="-359.7488 -355.6765 356.6808" name="Bip001 Strippz017">
+                                    <a-entity position="-1.657042 2.422333E-07 0" rotation="0 -5.408323 0" name="Bip001 Strippz018">
+                                      <a-entity position="-1.633912 0 4.844666E-07" rotation="0 -4.991832 0" name="Bip001 Strippz019">
+                                        <a-entity position="-1.639592 -2.422333E-07 0" rotation="0 -356.8242 0" name="Bip001 Strippz020">
+                                          <a-entity position="-1.641187 0 -9.689331E-07" rotation="0 -359.9469 0" name="Bip001 Strippz021">
+                                            <a-entity position="-1.636567 0 0" rotation="0 -356.4611 0" name="Bip001 Strippz022">
+                                              <a-entity position="-1.641136 0 0" rotation="0 -358.7099 0" name="Bip001 Strippz023">
+                                                <a-entity position="-1.645868 0 0" name="Bip001 Strippz024">
+                                                  <a-entity position="-1.636283 0 4.844666E-07" name="Bip001 Strippz025">
+                                                    <a-entity position="-1.645872 0 -4.844666E-07" name="Bip001 Strippz026">
+                                                      <a-entity position="-1.63606 -2.422333E-07 4.844666E-07" name="Bip001 Strippz027">
+                                                        <a-entity position="-1.64583 2.422333E-07 0" name="Bip001 Strippz028" obj-model="obj: #Bip001 Strippz028-obj; "></a-entity>
+                                                        <a-entity name="Bip001 Strippz027_Mesh" obj-model="obj: #Bip001 Strippz027-obj; "></a-entity>
+                                                      </a-entity>
+                                                      <a-entity name="Bip001 Strippz026_Mesh" obj-model="obj: #Bip001 Strippz026-obj; "></a-entity>
+                                                    </a-entity>
+                                                    <a-entity name="Bip001 Strippz025_Mesh" obj-model="obj: #Bip001 Strippz025-obj; "></a-entity>
+                                                  </a-entity>
+                                                  <a-entity name="Bip001 Strippz024_Mesh" obj-model="obj: #Bip001 Strippz024-obj; "></a-entity>
+                                                </a-entity>
+                                                <a-entity name="Bip001 Strippz023_Mesh" obj-model="obj: #Bip001 Strippz023-obj; "></a-entity>
+                                              </a-entity>
+                                              <a-entity name="Bip001 Strippz022_Mesh" obj-model="obj: #Bip001 Strippz022-obj; "></a-entity>
+                                            </a-entity>
+                                            <a-entity name="Bip001 Strippz021_Mesh" obj-model="obj: #Bip001 Strippz021-obj; "></a-entity>
+                                          </a-entity>
+                                          <a-entity name="Bip001 Strippz020_Mesh" obj-model="obj: #Bip001 Strippz020-obj; "></a-entity>
+                                        </a-entity>
+                                        <a-entity name="Bip001 Strippz019_Mesh" obj-model="obj: #Bip001 Strippz019-obj; "></a-entity>
+                                      </a-entity>
+                                      <a-entity name="Bip001 Strippz018_Mesh" obj-model="obj: #Bip001 Strippz018-obj; "></a-entity>
+                                    </a-entity>
+                                    <a-entity name="Bip001 Strippz017_Mesh" obj-model="obj: #Bip001 Strippz017-obj; "></a-entity>
+                                  </a-entity>
+                                  <a-entity name="Bip001 Strippz016_Mesh" obj-model="obj: #Bip001 Strippz016-obj; "></a-entity>
+                                </a-entity>
+                                <a-entity name="Bip001 Strippz015_Mesh" obj-model="obj: #Bip001 Strippz015-obj; "></a-entity>
+                              </a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-3.175274 0.07767548 -0.4691477" rotation="-347.7631 -6.863244 286.5665" name="Bip001 L Finger3">
+                          <a-entity position="-1.125931 4.844667E-07 1.937867E-06" rotation="-359.3873 -359.6512 299.6533" name="Bip001 L Finger31">
+                            <a-entity position="-0.8228325 0 0" rotation="1.183955E-06 -1.230434E-06 313.8971" name="Bip001 L Finger32">
+                              <a-entity position="-0.7895425 1.937867E-06 0" name="Bip001 L Finger3Nub"></a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-3.0102 0.2386327 -1.082337" rotation="-345.1008 -19.7644 281.7751" name="Bip001 L Finger4">
+                          <a-entity position="-0.7713211 0 0" rotation="-1.291501E-06 3.16147E-06 292.2206" name="Bip001 L Finger41">
+                            <a-entity position="-0.6178926 0 0" rotation="1.503691E-06 3.182878E-06 320.6762" name="Bip001 L Finger42">
+                              <a-entity position="-0.6579522 9.68933E-07 0" name="Bip001 L Finger4Nub"></a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                      </a-entity>
+                    </a-entity>
+                    <a-entity position="-7.404733 0 0" rotation="-0.3849025 -1.455144 75.18715" name="Bip001 L ForeTwist">
+                      <a-entity position="-3.237286 1.937867E-06 0" rotation="-1.505178 -8.762078E-07 8.540685E-07" name="Bip001 L ForeTwist1"></a-entity>
+                    </a-entity>
+                  </a-entity>
+                  <a-entity position="-2.757007 -1.211167E-07 0" rotation="-19.68319 -307.7059 13.25437" name="Bip001 LUpArmTwist">
+                    <a-entity position="-3.702365 0 0" rotation="-3.329558 3.104388E-08 -5.345109E-07" name="Bip001 LUpArmTwist1"></a-entity>
+                  </a-entity>
+                </a-entity>
+                <a-entity position="-0.03148645 0.3468708 1.342717" rotation="-353.3788 -96.91089 185.8721" name="Bip001 R Clavicle">
+                  <a-entity position="-2.757007 1.211167E-07 3.875733E-06" rotation="-20.15169 -60.49262 327.2725" name="Bip001 R UpperArm">
+                    <a-entity position="-7.40473 0 1.937867E-06" rotation="3.839039E-06 -6.143671E-06 77.00031" name="Bip001 R Forearm">
+                      <a-entity position="-6.474572 0 0" rotation="-67.09263 -135.0952 144.4396" name="Bip001 R Hand">
+                        <a-entity position="-1.793078 0.350187 -1.396275" rotation="-323.9827 -108.3001 295.6292" name="Bip001 R Finger0">
+                          <a-entity position="-0.7412634 0 1.937867E-06" rotation="1.790968E-06 4.664575E-06 358.9788" name="Bip001 R Finger01">
+                            <a-entity position="-0.6032003 -3.875733E-06 0" rotation="1.690127E-06 -4.913454E-07 357.8263" name="Bip001 R Finger02">
+                              <a-entity position="-0.7487329 1.937867E-06 0" rotation="8.537739E-07 -180 7.016708E-15" name="Bip001 R Finger0Nub"></a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-3.149387 0.09873234 -0.8462604" rotation="-1.891742 -4.647545 6.21904" name="Bip001 R Finger1">
+                          <a-entity position="-1.125911 0 0" rotation="-2.211826E-07 -8.246259E-07 344.9854" name="Bip001 R Finger11">
+                            <a-entity position="-0.6803995 0 0" rotation="0 0 352.2428" name="Bip001 R Finger12">
+                              <a-entity position="-0.789543 -9.68933E-07 -1.937867E-06" rotation="-1.045571E-22 -180 7.01671E-15" name="Bip001 R Finger1Nub"></a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-3.19261 0.01033658 -0.1413189" rotation="-9.744379 -359.1657 351.3312" name="Bip001 R Finger2">
+                          <a-entity position="-1.112568 0 -1.937867E-06" rotation="-7.363815E-07 1.761361E-06 356.1236" name="Bip001 R Finger21">
+                            <a-entity position="-1.081569 0 -1.937867E-06" rotation="2.010722E-07 -3.545533E-06 347.33" name="Bip001 R Finger22">
+                              <a-entity position="-0.9211328 9.68933E-07 1.937867E-06" rotation="-1.334021E-07 -180 -7.01671E-15" name="Bip001 R Finger2Nub"></a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-3.175274 0.07767548 0.4691477" rotation="-12.70144 -339.4012 349.3493" name="Bip001 R Finger3">
+                          <a-entity position="-1.125929 -9.68933E-07 0" rotation="8.696907E-07 3.329977E-06 352.488" name="Bip001 R Finger31">
+                            <a-entity position="-0.822832 4.844667E-07 0" rotation="1.621846E-07 3.411242E-06 357.278" name="Bip001 R Finger32">
+                              <a-entity position="-0.7895425 0 0" rotation="4.268868E-07 -180 7.01671E-15" name="Bip001 R Finger3Nub"></a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-3.0102 0.2386318 1.082337" rotation="-3.984666 -342.1794 339.5382" name="Bip001 R Finger4">
+                          <a-entity position="-0.7713203 -9.68933E-07 -1.937867E-06" rotation="1.50724E-07 -1.753634E-06 350.8762" name="Bip001 R Finger41">
+                            <a-entity position="-0.6178936 0 0" rotation="-6.399096E-07 -2.321222E-08 2.07745" name="Bip001 R Finger42">
+                              <a-entity position="-0.6579522 0 0" rotation="2.134434E-07 -180 -7.01671E-15" name="Bip001 R Finger4Nub"></a-entity>
+                            </a-entity>
+                          </a-entity>
+                        </a-entity>
+                        <a-entity position="-4.207156 1.495244 -0.5791662" name="glove_low" obj-model="obj: #glove_low-obj; mtl: #glove_low-mtl"></a-entity>
+                      </a-entity>
+                    </a-entity>
+                    <a-entity position="-7.40473 0 1.937867E-06" rotation="-1.247504 -5.412598 77.05931" name="Bip001 R ForeTwist">
+                      <a-entity position="-3.237286 -1.937867E-06 0" rotation="-5.554082 -1.660449E-07 1.715602E-06" name="Bip001 R ForeTwist1"></a-entity>
+                    </a-entity>
+                  </a-entity>
+                  <a-entity position="-2.757007 1.211167E-07 3.875733E-06" rotation="-18.09744 -61.87768 327.7263" name="Bip001 RUpArmTwist">
+                    <a-entity position="-3.702363 -9.68933E-07 1.937867E-06" rotation="-1.217805 -3.62989E-08 1.707934E-06" name="Bip001 RUpArmTwist1"></a-entity>
+                  </a-entity>
+                </a-entity>
+              </a-entity>
+            </a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+    </a-entity>
+    <a-entity rotation="-270.0198 1.109906E-05 0" name="Finger_Glove" obj-model="obj: #Finger_Glove-obj; mtl: #Finger_Glove-mtl"></a-entity>
+    <a-entity position="0.006671407 43.2982 -0.6390886" name="hat" obj-model="obj: #hat-obj; mtl: #hat-mtl"></a-entity>
+    <a-entity rotation="-270.0198 0 0" name="MLB_player_Hi_body" obj-model="obj: #MLB_player_Hi_body-obj; mtl: #MLB_player_Hi_body-mtl"></a-entity>
+    <a-entity rotation="-270.0198 0 0" name="Strippz" obj-model="obj: #Strippz-obj; mtl: #Strippz-mtl"></a-entity>
+    <a-entity position="4.579945E-06 40.97041 0.1644894" rotation="-270.0198 0 0" name="WH2" obj-model="obj: #WH2-obj; mtl: #WH2-mtl"></a-entity>
+  </a-entity>
+  <a-light position="389.9 6.4 -278.5" rotation="-34.76629 -220.0205 281.7899" name="Directional Light" type="directional" color="#FFF4D6"></a-light>
+  <a-entity position="47 -0.2735 -7.2502" scale="88.29999 88.29992 88.29992" name="Terrain"></a-entity>
+  <a-light name="AmbientLight" type="ambient" color="#363942"></a-light>
+</a-scene>
+</body>
+</html>
