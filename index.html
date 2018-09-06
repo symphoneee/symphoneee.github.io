@@ -29,25 +29,25 @@
   <a-sky id="image-360" radius="10" src="#f1"></a-sky>
 
 
-  <!-- Create Mouse Effects -->
-  <a-assets>
-  <script id="link" type="text/html">
-    <a-entity class="link"
-      geometry="primitive: plane; height: 1; width: 1"
-      material="shader: flat; src: ${thumb}"
-      sound="on: click; src: #click-sound"
-      event-set__1="_event: mousedown; scale: 1 1 1"
-      event-set__2="_event: mouseup; scale: 1.2 1.2 1"
-      event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
-      event-set__4="_event: mouseleave; scale: 1 1 1"></a-entity>
-  </script>
-</a-assets>
+
 
   <!-- Set position of thumbnails -->
   <a-entity id="links" layout="layout: line; margin: 1.5" position="-1 -1 -2">
   <a-entity template="src: #plane" data-thumb="#f1thumb"></a-entity>
  </a-entity>
 
+  
+  <!-- Create Mouse Effects -->
+  
+  <a-entity class="link"
+  geometry="primitive: plane; height: 1; width: 1"
+  material="shader: flat; src: #f1thumb"
+   event-set__1="_event: mousedown; scale: 1 1 1"
+      event-set__2="_event: mouseup; scale: 1.2 1.2 1"
+      event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
+      event-set__4="_event: mouseleave; scale: 1 1 1">
+  sound="on: click; src: #click-sound"></a-entity>
+  
   <!-- Camera & Curosor Alterations -->
   <a-camera>
     <a-cursor id="cursor">
